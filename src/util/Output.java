@@ -13,7 +13,7 @@ public class Output {
     HumanReadable hr;
     
     public Output() {
-    	this(true, true);
+    	this(true, false);
     }
     public Output(boolean console, boolean log) {
     	hr = new HumanReadable();
